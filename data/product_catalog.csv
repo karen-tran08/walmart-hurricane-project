@@ -1,0 +1,46 @@
+sku,product_name,category,subcategory,unit_cost,supplier,package_size
+PT-12,pop-tarts strawberry,Breakfast Foods,,1.93,Johnson & Johnson,4-pack
+SKU#459812,Strawberry Pop-Tart,Breakfast,Pop-Tarts,2.26,Roku Inc,4pk
+POPTART-STRAW,Pop-Tarts Strawberry,Breakfast,,2.11,Sara Lee,6 pack
+PT_STRAWBERRY,pop-tarts strawberry,breakfast,Pop-Tarts,,Campbell's,4 pack
+WTR-24,BOTTLED WATER 24PK,Emergency Supplies,Bottled,2.64,Sara Lee,1 pack
+WATER24PK,Bottled Water 24-Pack,Emergency,Bottled,2.38,Sara Lee,24 pack
+WTR_24PK,Water - 24 Pack,Emergency,,2.08,Frito-Lay,1 pack
+BATT-100,BATTERIES AA 4PK,Emergency Supplies,AA,,3M Company,6 pack
+BAT-AA4,AA Batteries 4-Pack,Emergency Supplies,AA,4.16,Kimberly-Clark,4pk
+BATT_AA_4PK,AA Batteries 4-Pack,Emergency,AA,3.71,Anheuser-Busch,24 pack
+FLASH-01,FLASHLIGHT LED,Emergency,Flashlight,,Frito-Lay,6-pack
+LED-FLASH,FLASHLIGHT LED,EMERGENCY,,8.20,Frito-Lay,single
+BEER-24,Light Beer (24-pack),Alcoholic Beverages,,9.62,Hasbro,bundle
+LTBEER24,Light Beer (24-pack),ALCOHOL,Light,7.61,Kellogg's,bundle
+BG-MONO,Monopoly Board Game,ENTERTAINMENT,,9.96,Kimberly-Clark,1pk
+MONOPOLY-01,Monopoly Board Game,entertainment,,12.51,Georgia-Pacific,24-pack
+GAME-MONO,Board Game - Monopoly,ENTERTAINMENT,,,Campbell's,1pk
+CARDS-01,Playing Cards,ENTERTAINMENT,Playing,2.45,J.M. Smucker,4pk
+PLAYCARD-STD,PLAYING CARDS,entertainment,Playing,2.39,Georgia-Pacific,24-pack
+STREAM-01,Roku Streaming Stick,Electronics,Streaming,16.70,3M Company,12 pack
+ROKU-STD,Streaming Device,electronics,Streaming,16.99,Anheuser-Busch,12 pack
+SOUP-CAN,Soup - Canned,Groceries,Canned,1.23,J.M. Smucker,single
+CNSOUP-01,Canned Soup,GROCERY,,1.19,Generic Supplier,single
+BREAD-WH,WHITE BREAD,Grocery,Bread,1.53,Procter & Gamble,24-pack
+WHITEBREAD,WHITE BREAD,grocery,Bread,1.12,Sara Lee,24 pack
+PB-16,PEANUT BUTTER,GROCERY,Peanut,1.36,Hasbro,bundle
+PNUTBTR-16,Peanut Butter,GROCERY,Peanut,1.94,Sara Lee,1-pack
+CNDL-EM,Candles (Emergency),EMERGENCY,Candles,3.81,Frito-Lay,1 pack
+CANDLE-EMRG,Emergency Candles,EMERGENCY,Candles,3.43,Roku Inc,24pk
+FAID-01,First-Aid Kit,health,First,6.90,Anheuser-Busch,4 pack
+FIRSTAID-KIT,First Aid Kit,health,,7.85,J.M. Smucker,4 pack
+CHRG-PORT,PORTABLE CHARGER,ELECTRONICS,,11.99,Georgia-Pacific,single
+PORTCHARGER,Portable Phone Charger,ELECTRONICS,Portable,15.03,Johnson & Johnson,12 pack
+CHIPS-VP,Variety Pack - Chips,snacks,Chips,4.03,Frito-Lay,single
+CHIPVARIETY,Chips Variety Pack,Snacks,Chips,4.11,Generic Supplier,4-pack
+PTOWEL-6,Paper Towels,household,Paper,3.85,Campbell's,4 pack
+PAPERTOWEL6,Paper Towels,HOUSEHOLD,Paper,5.09,Georgia-Pacific,12-pack
+TP-12,TOILET PAPER 12PK,household,Toilet,5.58,Campbell's,1 pack
+TOILETPAPER12,Toilet Paper 12-Roll,Household,Toilet,5.75,J.M. Smucker,24-pack
+DIAP-S3,Baby Diapers - Size 3,baby,Diapers,14.40,Procter & Gamble,single
+DIAPERS-3,DIAPERS SZ 3,Baby Products,Diapers,13.59,Generic Supplier,6 pack
+BFORM-01,Infant Formula,Baby,Baby,18.87,Procter & Gamble,4-pack
+BABYFORMULA,Baby Formula,Baby,,18.25,Sara Lee,6 pack
+TARP-HD,Heavy Duty Tarp,Emergency,,11.90,J.M. Smucker,12 pack
+HDTARP-01,TARP - HEAVY DUTY,emergency,Tarp,,J.M. Smucker,24pk

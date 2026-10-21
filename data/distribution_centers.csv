@@ -1,0 +1,6 @@
+dc_id,dc_name,city,state,avg_daily_shipments,surge_capacity,distance_to_orlando_mi,cost_per_shipment
+DC-JAX,Jacksonville Distribution Center,Jacksonville,FL,500,1000,141,245.00
+DC-ATL,Atlanta Distribution Center,Atlanta,GA,400,700,438,412.50
+DC-DAL,Dallas Distribution Center,Dallas,TX,300,600,1108,687.00
+DC-MIA,Miami Distribution Center,Miami,FL,350,~750,235,298.00
+DC-BHM,Birmingham Distribution Center,Birmingham,AL,250,500,503,

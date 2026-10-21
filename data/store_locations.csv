@@ -1,0 +1,15 @@
+store_id,store_name,city,state,zip_code,latitude,longitude,region
+FL-239,Walmart Supercenter Orlando,Orlando,FL,32801,28.5383,-81.3792,Central
+FL-105,Walmart Supercenter Tampa,Tampa,FL,33602,27.9506,-82.4572,West
+FL-330,Walmart Supercenter Miami,Miami,FL,33101,25.7617,-80.1918,South
+FL-412,Walmart Supercenter Jacksonville,Jacksonville,FL,32099,30.3322,-81.6557,North
+FL-287,Walmart Neighborhood Market Kissimmee,Kissimmee,Florida,34741,28.292,-81.4076,Central
+FL-156,Walmart Supercenter Daytona Beach,Daytona Beach,FL,32114,29.2108,-81.0228,East
+FL-501,Walmart Supercenter Fort Myers,Fort Myers,FL,33901,26.6406,-81.8723,West
+FL-078,Walmart Supercenter Gainesville,Gainesville,FL,32601,29.6516,-82.3248,North
+FL-619,Walmart Supercenter Tallahassee,Tallahassee,FL,32301,,, Panhandle
+FL-445,Walmart Supercenter St. Petersburg,St. Petersburg,Fla.,33701,27.7676,-82.6403,West
+FL-302,Walmart Supercenter Lakeland,Lakeland,Florida,33801,28.0395,-81.9498,Central
+FL-710,Walmart Supercenter Pensacola,Pensacola,FL,32501,30.4213,-87.2169,Panhandle
+FL239,Walmart Supercenter Orlando,Orlando,FL,32801,28.5383,-81.3792,Central
+FL_287,Walmart Neighborhood Market Kissimmee,Kissimmee,Florida,34741,28.292,-81.4076,Central
