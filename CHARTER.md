@@ -31,8 +31,8 @@
 
 ## How we work
 - **repo url:** https://github.com/karen-tran08/walmart-hurricane-project
-- **notebook owner this week:** 
-- **meeting time:** TBD
+- **notebook owner this week:** Karen
+- **meeting time:** Monday, 2PM
 - **channel:** Messages (text) — respond ASAP
 - **how we decide:** Weigh the pros and cons of each option and decide based on that analysis.
 - **if someone goes quiet:** Reach out personally to understand the situation, then escalate accordingly (bring to instructor if still unresolved).
