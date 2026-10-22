@@ -1,4 +1,4 @@
-# Team charter: TBD
+# Team charter: The Cleaners
 
 ## Members
 - Karen (GitHub: karen-tran08)
