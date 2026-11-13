@@ -1,0 +1,17 @@
+# Reflection
+#### Karen Tran, Zach Bernas
+
+### 1. Data Quality Impact
+The most dangerous issue was the mixed timestamp formats. Some dates were month-first and others day-first, so a string like `09/05` could be read as September 5 or May 9. We parsed every format explicitly and checked that all dated rows fell in September 2024. If we had let pandas guess day-first, 5,730 of our 24,521 dated rows (23%) would have landed outside September. The pre-storm baseline would have dropped from 1,103 to 367 units/day, and our headline surge would have jumped from 2.89x to 8.69x. That is triple the real number, and nothing would have thrown an error to warn us. We would have told Walmart to stock about three times more than the data supports.
+
+### 2. ETL Trade-offs
+Our riskiest join decision was using one weather location (Orlando) for all 12 stores and requesting the data from Open-Meteo already in `America/New_York` time, rather than converting from UTC ourselves. This kept the join to one row per day, and it lost no rows across all 30 days. The alternative was to pull weather for each store's own coordinates and join on store and date. That would have given us 12× more weather rows and let Q3 test whether stores that got hit harder bought more. It might have weakened the 0.82 lagged wind correlation, because coastal and inland stores saw very different wind. It might also have strengthened it, because each store's sales would be matched to the storm it actually experienced. Because Q4 found the surge was nearly uniform (3.0 to 3.8x) at every store, we doubt per-store weather would change our recommendation. Still, it is the first assumption we would test.
+
+### 3. Pipeline Trust
+We agree with the CDO: the pipeline was the bigger risk. Every number we reported depends on cleaning choices that never raised an error when they were wrong (see Q1 above). Our most fragile point was the handoff between notebooks. The cleaning functions write `transactions_clean.csv`, but the analysis only printed the row count when loading it and never checked anything else. Several fixes also ended up in the analysis cells instead of the cleaning step: merging 37 category spellings into 10, filling in the Tallahassee store's missing coordinates, and correcting the day boundaries in the store-level surge calculation. Any rerun that skipped those cells would silently produce different numbers. A trustworthy version asserts its known values at load time: 25,402 rows, 12 store IDs that all match the store file, no duplicates, and 49,584 total units.
+
+### 4. Business vs. Data
+to do
+
+### 5. Team Collaboration
+We split the work by the charter. Karen owned cleaning, the decision log, Q1, Q4, and Q5. Zach owned the weather API and join, Q2, and Q3. Each of us reviewed the other's questions. Our biggest time cost was waiting on reviews. "Respond ASAP" was not a deadline, and since we only met on Mondays, finished work could sit for days. With another week, we would set a 24-hour review rule, move every cleaning fix into one function with built-in asserts, and add barometric pressure and per-store weather to Q3. Karen's most valuable contribution was rigorous cleaning: the decision log and the row-count checks are why we trust the 2.89x figure. Zach's was the data integration: getting live API data joined cleanly to sales with no rows lost, plus the lag analysis that found buying ran about two days ahead of the wind.
